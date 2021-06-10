@@ -1,0 +1,56 @@
+/* Display */
+
+/* .parent{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.child{
+    display: inline-block;                  /* since div is a block element we use display inline to convert to inline block */
+    /* background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+} */
+
+/* Position */
+
+/* .parent{
+    position: relative;                         /* relative will set the boundry for child */
+/*     background-color: red;
+    width: 300px;
+    height: 300px;
+} */
+
+/* .child{
+    position: absolute;                  
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    /* top: 0px;
+    right: 0px; */
+/*     left: 0px;
+    bottom: 0px;
+}  */ 
+
+/* PSeudo Classes */
+button{
+    background-color: deeppink;
+    border: solid;
+    color:white;
+    border-radius: 6px;
+}
+
+button:hover{                                              /*  These are pseudo classes and micro interaction*/
+    background-color: mediumorchid;
+}
+
+button:focus{                                               /* After clicking */
+    background-color: gray;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

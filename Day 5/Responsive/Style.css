@@ -1,0 +1,9 @@
+body{
+    background-color: greenyellow;
+}
+
+@media (min-width: 768px){                                     /* Working because of meta tag content="width=device-width */
+    body{
+        background-color: blue;
+    }
+}
